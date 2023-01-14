@@ -258,7 +258,7 @@ if(!useCustomPos){
         var colorSelecterX = 768;
         var colorSelecterY = [320, 450, 570, 690, 806, 534, 660, 787];
     } else if (device.height == 2712 && device.width == 1220) {
-        //2712x1220(eg.红米k50u)(图片尺寸为199×110)
+        //2712x1220(eg.红米k50u)(图片尺寸为198×110)
         var pixelWidth = 12;
         var printAreaBegin = [1139, 290];
         var printAreaEnd = [2339, 964];

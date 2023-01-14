@@ -257,6 +257,13 @@ if(!useCustomPos){
         var printAreaEnd = [1981, 854];
         var colorSelecterX = 768;
         var colorSelecterY = [320, 450, 570, 690, 806, 534, 660, 787];
+    } else if (device.height == 2712 && device.width == 1220) {
+        //2712x1220(eg.红米k50u)(图片尺寸为199×110)
+        var pixelWidth = 12;
+        var printAreaBegin = [1139, 290];
+        var printAreaEnd = [2339, 964];
+        var colorSelecterX = 1008;
+        var colorSelecterY = [368, 507, 647, 787, 910, 608, 747, 887];
     } else {
         //暂时没适配的分辨率，你可以自己更改这个脚本
         dialogs.alert("暂不支持此分辨率", "请在设置中设置你的坐标");
